@@ -1,32 +1,24 @@
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg: #1a1b26;
+        --bg: #2E3440;
+        --urlbar-bg: #3B4252;
+        --urlbar-border-top: #2E3440;
+        --urldrop-bg: #3B4252;
+        --urlbar-border-bottom: #434C5E;
+        --urlbar-outline: #4C566A;
 
-        --urlbar-bg: #0d0d15;
-        --urlbar-border-top: #000;
-        --urldrop-bg: #0d0d15;
-        --urlbar-border-bottom: #404040;
-        --urlbar-height: 30px;
-        --urlbar-outline: #414868;
-
-        --fullscreen-warn: rgb(25, 25, 25);
-
+        --fullscreen-warn: #2E3440;
+        
         --arrowpanel-background: var(--urlbar-bg) !important;
         --button-hover-bgcolor: rgba(159, 159, 159, 0.35) !important;
         --button-active-bgcolor: rgba(255, 255, 255, 0.2) !important;
         --button-bgcolor: rgba(117, 117, 117, 0.9) !important;
         --toolbarbutton-icon-fill-opacity: 0.8 !important;
-        --arrowpanel-border-color: rgb(55, 55, 55) !important;
+        --arrowpanel-border-color: #434C5E !important;
         --identity-btn-hover-color: rgba(117, 117, 117) !important;
-
-        --dark-menu-background-color: rgba(34, 34, 36, 0.5) !important;
-        --dark-menu-border-color: rgb(55, 55, 55) !important;
-        --dark-menuitem-hover-background-color: rgba(
-            159,
-            159,
-            159,
-            0.35
-        ) !important;
+        --dark-menu-background-color: rgba(58, 64, 77, 0.5) !important;
+        --dark-menu-border-color: #434C5E !important;
+        --dark-menuitem-hover-background-color: rgba(159, 159, 159, 0.35) !important;
     }
 }
 
